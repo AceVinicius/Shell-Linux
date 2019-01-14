@@ -2,6 +2,7 @@
 # define STYLES_H_
 
 
+
 void  start   (void);
 void  finish  (void);
 void  style   (const int type,
