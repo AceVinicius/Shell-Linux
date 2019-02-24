@@ -1,3 +1,3 @@
 ```console
-$ bash script.sh
+$ sudo bash script.sh
 ```
