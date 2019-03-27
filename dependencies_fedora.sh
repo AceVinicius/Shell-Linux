@@ -1,14 +1,13 @@
 #!/bin/bash
 
+# Install dependencies
 sudo dnf install gcc
 sudo dnf install ccache
 sudo dnf install readline*
-
 
 sudo dnf update
 sudo dnf upgrade
 
 
-ccache gcc *.c -lm -lreadline -o shell
-
-./shell
+#compile and run Shell Linux
+bash run.sh
