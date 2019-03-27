@@ -1,14 +1,13 @@
 #!/bin/bash
 
+# Install dependencies
 sudo apt install gcc
 sudo apt install ccache
 sudo apt install readline*
-
 
 sudo apt update
 sudo apt upgrade
 
 
-ccache gcc *.c -lm -lreadline -o shell
-
-./shell
+#compile and run Shell Linux
+bash run.sh
