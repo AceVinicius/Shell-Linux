@@ -1,5 +1,6 @@
 #!/bin/bash
 
-# Compile Shell Linux
-ccache gcc *.c -lm -lreadline -o shell
-./shell
+ccache clang ./src/*.c -W -Wall -O3 -lm -lreadline -o ./bin/Shell_Linux
+
+cd ./bin
+./Shell_Linux

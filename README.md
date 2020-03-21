@@ -1,11 +1,11 @@
 # Shell-Linux
 
-First Run:
+Install dependencies:
 ```console
-$ sudo bash dependencies_[ distribution ].sh
+$ sudo bash dependencies.sh
 ```
 
-Future compiles:
+Compile and run code:
 ```console
-$ sudo bash run.sh
+$ bash run.sh
 ```
